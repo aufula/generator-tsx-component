@@ -18,7 +18,7 @@
     "react",
     "component-template"
   ],
-  "author": "shaotian.hst",
+  "author": "aufula",
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^15.0.35",
