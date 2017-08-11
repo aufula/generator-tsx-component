@@ -1,15 +1,17 @@
 {
   "name": "generator-tsx-component",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "a component template based on Typescript, React",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "tslint": "tslint './src/**/*.?(ts|tsx)'"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "generators"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/aufula/generator-tsx-component.git"
+    "url": "git+https://github.com/aufula/generator-tsx-component.git"
   },
   "keywords": [
     "yeoman-generator",
@@ -21,22 +23,13 @@
   "author": "aufula",
   "license": "ISC",
   "devDependencies": {
-    "@types/react": "^15.0.35",
-    "@types/react-dom": "^15.5.1",
-    "pre-commit": "^1.2.2",
-    "tslint": "^5.5.0",
-    "typescript": "^2.4.1"
   },
   "dependencies": {
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "yeoman-generator": "^1.1.1"
   },
   "pre-commit": [
     "tslint"
   ],
-  "publishConfig": {
-      "registry": "https://registry.npmjs.com/"
-  },
   "bugs": {
     "url": "https://github.com/aufula/generator-tsx-component/issues"
   },
